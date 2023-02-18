@@ -1,0 +1,62 @@
+//header
+@media screen and (max-width: 1110px) {
+    .navbar{
+        position: absolute;
+        background-color: rgba(var(--color-overlay), .5);
+        left: -100%;
+        top: 92px;
+        width: 100%;
+        transition: all 200ms ease-in-out;
+        &__list{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 10px;
+        }
+        &__item{
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+        
+    }
+    .menuBtn{
+        display: block;
+    }
+}
+//first-screen
+@media screen and (max-width: 680px) {
+    .first-screen__subtitle{
+        font-size: 18px !important;
+    }
+    .first-screen__title{
+        font-size: 48px !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .first-screen__subtitle{
+        font-size: 14px !important;
+    }
+    .first-screen__title{
+        font-size: 36px !important;
+        margin-top: 15px !important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .sessions__grid{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .sessions__body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sessions__left-block{
+        max-width: 856px !important;
+        margin-right: 0px !important;
+        margin-bottom: 24px;
+    }
+}
+
